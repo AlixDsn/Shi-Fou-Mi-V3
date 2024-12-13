@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caillou, Bâton, AK !</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="./assets/js/script.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="modal">
+            <div class="overley1">
+                <h2>Votre Avatar</h2>
+                <div class="img">
+                    <img src="./assets/img/be554b67839b11eebab47a2f0d1382ba_upscaled-removebg-preview.png" alt="">
+                    <img src="./assets/img/bb48e85aa48a11eebc73badf81d486ab_upscaled-removebg-preview.png" alt="">
+                    <img id="masquer" src="./assets/img/image-removebg-preview (9).png" alt="">
+                </div>
+                <form action="" method="GET"></form>
+                <label for="name">Votre pseudo</label>
+                <input id="user" type="" name="pseudo" required />
+                <button id="submitbutton" type="submit">Envoyer</button>
+            </div>
+        </div>
+
+        <!-- TUTO MENU BURGER  -->
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">x</a>
+            <h2>Règles</h2>
+            <p>Chaque joueurs sélectionne l'un des trois éléments : caillou, bâton ou AK. Les deux joueurs font leur
+                choix
+                en même temps, et le gagnant est déterminé selon les règles suivantes :</p>
+            <ul>
+                <li>
+                <li>Le caillou gagne contre l’AK en l’écrasant.</li>
+                <li>L’AK gagnent contre le bâton en le coupant.</li>
+                <li>Le bâton gagne contre pierre en la jettant.</li>
+                </li>
+
+                <!-- <h2>Score</h2>
+                <li>
+                <p>Moi:</p>
+                <hr>
+                <p>Nuclear(Bot):</p> -->
+                </li>
+            </ul>
+        </div>
+
+        <a href="#" id="openBtn">
+            <span class="burger-icon">
+
+                <div id="menu">
+                    <h1>Nombre de victoires :</h1>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </span>
+        </a>
+        <!-- FIN DU TUTO -->
+
+        <!-- TUTO PIERRE FEUILLE CISEAUX -->
+        <section id="backplay">
+            <div class="backplay-container">
+                <img id="personnage" src="./assets/img/image-removebg-preview (9).png" <img id="personnage"
+                    src="./assets/img/bb48e85aa48a11eebc73badf81d486ab_upscaled-removebg-preview.png" alt="">
+                <div class="afficher">
+
+                </div>
+                <div id="jeu">
+                    <img class="buttonjeu" id="pierre" src="./assets/img/caillou.png" alt="">
+                    <img class="buttonjeu" id="papier" src="./assets/img/baton.png" alt="">
+                    <img class="buttonjeu" id="ciseaux" src="./assets/img/ak.png" alt="">
+                </div>
+                <div class="choix">
+                    <h4 id="vous">Vous <span id="choix-user"></span></h4>
+                    <h4 id="bot">Nuclear(Bot) <span id="choix-bot"></span></h4>
+                </div>
+
+                <button id="rejouerBtn">Rejouer</button>
+                </button>
+                <!-- <div class="btn_choix_jeu"> -->
+                <!-- <button class="buttonjeu" id="pierre">Caillou</button>
+                <button class="buttonjeu" id="papier">Bâton</button>
+                <button class="buttonjeu" id="ciseaux">AK</button> -->
+                <!-- </div> -->
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
